@@ -202,6 +202,7 @@ input[type="text"]{
     max-height: 700px;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    padding: 50px 0 50px 0;
     
 
 }
@@ -209,6 +210,10 @@ input[type="text"]{
 .client-pic i{
     font-size: 3rem;
     color: white;
+
+    height: 64px;
+    border: 2px solid grey;
+    border-radius: 8px;
     
 } 
 
@@ -223,6 +228,7 @@ input[type="text"]{
 .client-name{
     font-size: 3.5rem;
     color: #B68C5A;
+    margin:  0 0 0 0;
 }
 
 .client-n-description{
@@ -232,3 +238,84 @@ input[type="text"]{
 .c-txt{
     padding: 98px 135px;
 }
+
+.client-title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 0 0 0 0;
+}
+.client-description{
+    color: #707070;
+}
+
+
+/* question part */
+
+.question{
+    width: 100%;
+    max-width: 714px;
+    max-height: 128px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.q-title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 0 0 0 0;
+}
+
+.q-description{
+    color: #707070;
+}
+
+/* next part of question */
+
+.q-scenario{
+    width: 100%;
+    max-width: 1170px;
+    max-height: 580px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    gap: 30px;
+}
+
+.q-all{
+    font-size: 1.35rem;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+.one{
+    width: 570px;
+    height: 100px;
+    background-color: #F3F3F3;
+    
+    border-radius: 8px;   
+
+}
+
+.one:hover{
+    background-color: #B68C5A;
+    color: aliceblue;
+}
+
+.q-des:hover{
+    color: #E7E7E7;
+}
+
+.another-one{
+    height: 190px;
+}
+
+.q-des{
+    text-align: center;
+    /* width: 504px;
+    height: 78px; */
+    color: #707070;
+}
+
